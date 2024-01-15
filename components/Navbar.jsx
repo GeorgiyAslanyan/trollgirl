@@ -42,7 +42,7 @@ const Navbar = () => {
         </div>
         <a
           className="px-10 text-lg lg:text-xl py-1 border-2 border-[#D9D9D9] bg-[#161825] hover:bg-[#D9D9D9] hover:text-[#161825] ease-linear duration-100 transition-all"
-          href="https://app.uniswap.org/#/swap?outputCurrency="
+          href="https://www.dextools.io/app/en/ether/pairs"
           target="_blank"
           rel="noopener noreferrer">
           Chart
@@ -52,7 +52,7 @@ const Navbar = () => {
         <div className="w-full flex gap-5 justify-between">
           <a
             className="px-10 text-lg lg:text-xl py-1 border-2 border-[#D9D9D9] bg-[#161825] hover:bg-[#D9D9D9] hover:text-[#161825] ease-linear duration-100 transition-all"
-            href="https://app.uniswap.org/#/swap?outputCurrency="
+            href="https://www.dextools.io/app/en/ether/pairs"
             target="_blank"
             rel="noopener noreferrer">
             Chart

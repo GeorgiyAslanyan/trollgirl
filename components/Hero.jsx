@@ -16,7 +16,7 @@ const Hero = () => {
         </h2>
         <a
           className="px-14 w-fit text-xl py-1 border-2 border-[#D9D9D9] bg-[#161825] hover:bg-[#D9D9D9] hover:text-[#161825] ease-linear duration-100 transition-all"
-          href="https://app.uniswap.org/#/swap?outputCurrency="
+          href="https://app.uniswap.org/swap"
           target="_blank"
           rel="noopener noreferrer">
           Buy
