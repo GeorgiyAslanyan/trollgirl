@@ -24,7 +24,7 @@ const arr = [
     title: "Switch ETH for Troll",
     description:
       "Switch ETH for $TROLL. We have ZERO taxes so you don’t need to worry about buying with a specific slippage, although you may need to use slippage during times of market volatility.",
-    img: "/Trollface.png",
+    img: "/trollface.png",
   },
 ];
 
@@ -33,7 +33,7 @@ const HowTo = () => {
     <div
       id="howto"
       className="flex gap-10 min-h-screen bg-[#D9D9D9] text-[#161825] pt-10 justify-center items-center px-24 w-full">
-      <div className="flex gap-5 max-w-[1250px] w-full justify-center flex-col">
+      <div className="flex gap-5 max-w-[1250px] w-full justify-center flex-col ">
         <h2 className="text-5xl pb-5 text-center">How to buy</h2>
         {arr.map((el, index) => (
           <div key={index} className="border-2 items-center border-[#161825] p-10 flex gap-10">
