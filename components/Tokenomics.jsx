@@ -5,9 +5,9 @@ const Tokenomics = () => {
   return (
     <div
       id="tokenomics"
-      className="flex gap-10 h-screen bg-white text-black py-5 items-center px-24 w-full">
-      <div className="flex gap-5 w-1/2 justify-center flex-col font-bold">
-        <h1 className="text-5xl font-black text-center">Tokenomics</h1>
+      className="flex gap-10 h-screen bg-[#D9D9D9] text-[#161825] pb-5 items-center px-24 w-full">
+      <div className="flex gap-5 w-1/2 justify-center flex-col">
+        <h1 className="text-5xl text-center">Tokenomics</h1>
         <h2 className="text-2xl text-center">
           Ticker Name: $TrollG <br />
           Total Supply: 55,000,000,000,000 <br />

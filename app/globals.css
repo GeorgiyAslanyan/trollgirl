@@ -25,3 +25,15 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.clip-path-right {
+  clip-path: polygon(0 0, 100% 0, 100% 93%, 0 100%);
+}
+
+.clip-path-roadmap {
+  clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+}
+
+.clip-path-left {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 93%);
+}
