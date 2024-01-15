@@ -12,12 +12,12 @@ const Roadmap = () => {
   return (
     <div
       id="roadmap"
-      className="clip-path-roadmap flex flex-col gap-10  w-full bg-[#161825] text-[#D9D9D9] items-center justify-center p-24">
+      className="clip-path-roadmap flex flex-col gap-10 w-full bg-[#161825] text-[#D9D9D9] items-center justify-center px-4 lg:px-24 py-24">
       <div className="flex items-center justify-center">
         <h2 className="text-5xl">Roadmap</h2>
       </div>
-      <div className="grid grid-cols-4 gap-5 justify-center">
-        {roadmapArr.map((el, index) => <div key={index} className="border-2 border-[#D9D9D9] pt-10 pb-5 px-5 flex flex-col gap-5">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 justify-center">
+        {roadmapArr.map((el, index) => <div key={index} className="border-2 border-[#D9D9D9] pt-3 lg:pt-10 pb-4 lg:pb-5 px-3 lg:px-5 flex flex-col gap-5">
             <p className="text-2xl">Phase {index + 1}</p>
             <div className="flex flex-col text-xl gap-2">
                 <p>{el.text1}</p>

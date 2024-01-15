@@ -5,8 +5,8 @@ const About = () => {
   return (
     <div
       id="about"
-      className="clip-path-left flex gap-10 h-screen  w-full bg-[#D9D9D9] text-[#161825] py-5 items-center px-24">
-      <div className="h-full w-1/2 flex items-center justify-center">
+      className=" flex flex-col md:flex-row gap-10 h-auto md:h-screen  w-full bg-[#D9D9D9] text-[#161825] py-5 items-center px-4 lg:px-24">
+      <div className="h-auto md:h-full w-full md:w-1/2 flex items-center justify-center">
         <Image
           src="/f2.png"
           alt="img"
@@ -15,7 +15,7 @@ const About = () => {
           className="h-2/3 -scale-x-100"
         />
       </div>
-      <div className="flex gap-5 w-1/2 justify-center flex-col ">
+      <div className="flex gap-5 w-full md:w-1/2 justify-center flex-col ">
         <p className="text-2xl">
           $Troll is not the good looking guy you think, we have lived together
           for many years, and now he has decided to become the most hyped meme

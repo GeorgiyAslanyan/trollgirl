@@ -5,12 +5,12 @@ const Hero = () => {
   return (
     <div
       id="home"
-      className="clip-path-right flex gap-10 h-screen  w-full bg-[#161825] text-[#D9D9D9] py-5 items-center px-24">
-      <div className="flex gap-5 w-1/2 justify-center flex-col ">
-        <h1 className="text-6xl ">
+      className="clip-path-right flex flex-col-reverse md:flex-row gap-10 h-auto md:h-screen  w-full bg-[#161825] text-[#D9D9D9] pb-20 md:pb-5 pt-5 items-center px-4 lg:px-24">
+      <div className="flex gap-5 w-full md:w-1/2 justify-center flex-col">
+        <h1 className="text-4xl md:text-6xl ">
           My $Troll wants <br /> to be a superstar.
         </h1>
-        <h2 className="text-2xl">
+        <h2 className="text-xl md:text-2xl">
           He thinks he can succeed without me, fool! <br /> I&apos;m his favorite
           $TrollGirl and I want to get pumped too! 😭
         </h2>
@@ -22,13 +22,13 @@ const Hero = () => {
           Buy
         </a>
       </div>
-      <div className="h-full w-1/2 flex items-center justify-center">
+      <div className="h-full w-full md:w-1/2 flex items-center justify-center">
         <Image
           src="/f1.png"
           alt="img"
           width="400"
           height="487"
-          className="h-2/3 -scale-x-100"
+          className="h-2/3 -scale-x-100 px-5 pt-10 md:px-0 md:pt-0"
         />
       </div>
     </div>
