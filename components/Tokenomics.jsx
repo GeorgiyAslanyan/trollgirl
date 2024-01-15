@@ -9,13 +9,10 @@ const Tokenomics = () => {
       <div className="flex gap-5 w-full md:w-1/2 justify-center flex-col">
         <h1 className="text-5xl text-center">Tokenomics</h1>
         <h2 className="text-xl md:text-2xl text-center">
-          Ticker Name: $TrollG <br />
-          Total Supply: 55,000,000,000,000 <br />
-          90% circulating / 5% MW / 5% Team <br />
-          Tax: 5/5 <br />
-          Buy (2 - liquidity, 2 - burning, <br /> 1 - $Troll Deployer Wallet) <br />
-          Sell (2 - liquidity, 2 - burning, <br />1 - $Troll Deployer Wallet) <br />
-          Max Wallet: 2%
+        Ticker Name: $TrollG <br />
+    Total Supply: 960,420,000,000,000 <br />
+    Tax: 0 % <br />
+    Liquidity Pool: 93.1 %
         </h2>
       </div>
       <div className="hidden md:flex h-full w-1/2 items-center justify-center">
